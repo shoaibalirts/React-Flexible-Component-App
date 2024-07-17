@@ -3,9 +3,11 @@ import HomeIcon from "./HomeIcon";
 import PlusIcon from "./PlusIcon";
 
 function App() {
+  // console.log(HomeIcon);
   return (
     <div id="app">
       <section>
+        <img src={HomeIcon} alt="" />
         <h2>Filled Button (Default)</h2>
         <p>
           <Button>Default</Button>
